@@ -1,0 +1,409 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main_container1 {
+	width: 600px;
+	padding: 15px;
+	border: 1px solid;
+	border-radius: 5px;
+	margin: 15px auto;
+	line-height: 2;
+	box-shadow: 5px 4px 10px black;
+}
+
+.heading_badge {
+	text-align: center;
+	padding: 2px;
+	margin-left: 10px;
+	background-color: rgb(119 131 48 / 64%);
+	box-shadow: 5px 4px 10px black;
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+}
+
+.primary_badge a {
+	padding: 2px;
+	margin-left: 10px;
+	background-color: rgb(209, 224, 255);
+	color: rgb(39, 49, 70);
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+
+
+}
+
+.secondary_badge a {
+	padding: 2px;
+	margin-left: 10px;
+	background-color: rgb(226, 227, 229);
+	color: rgb(36, 38, 38);
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+}
+
+.success_badge a {
+	padding: 2px;
+	margin-left: 10px;
+	background-color: rgb(209, 230, 221);
+	color: rgb(62, 81, 73);
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+}
+
+.danger_badge a {
+	padding: 2px;
+	margin-left: 10px;
+	background-color: rgb(248, 216, 219);
+	color: rgb(103, 81, 83);
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+}
+
+.warning_badge a {
+	padding: 2px;
+	margin-left: 10px;
+	background-color: rgb(255, 243, 205);
+	color: rgb(101, 96, 81);
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+}
+
+.info_badge a {
+	padding: 2px;
+	margin-left: 10px;
+	background-color: rgb(207, 244, 252);
+	color: rgb(70, 81, 85);
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+}
+
+.main_container2 {
+	width: 600px;
+	padding: 23px;
+	border: 1px solid;
+	border-radius: 5px;
+	margin: 13px auto;
+	box-shadow: 5px 4px 10px black;
+	line-height: 3;
+	margin-top: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	line-height:2;
+
+
+}
+
+.sub_container2 {
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.online_badge {
+	text-align: center;
+	padding: 2px;
+	margin: 10px;
+	background-color: rgb(119 131 48 / 64%);
+	box-shadow: 5px 4px 10px black;
+	text-decoration: none;
+	border: none;
+	margin-bottom: 25px;
+	border-radius: 5px;
+}
+
+.primary_online {
+	background-color: rgb(209, 224, 255);
+	color: rgb(39, 49, 70);
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	margin-top: 6px;
+	padding: 6px 25px;
+	text-align: center;
+}
+
+.secondary_online {
+	background-color: rgb(226, 227, 229);
+	color: rgb(36, 38, 38);
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	margin-top: 6px;
+	padding: 6px 25px;
+	text-align: center;
+}
+
+.success_online {
+	background-color: rgb(209, 230, 221);
+	color: rgb(62, 81, 73);
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	margin-top: 6px;
+	padding: 6px 25px;
+	text-align: center;
+}
+
+.danger_online {
+	background-color: rgb(248, 216, 219);
+	color: rgb(103, 81, 83);
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	margin-top: 6px;
+	padding: 6px 25px;
+	text-align: center;
+}
+
+.warning_online {
+	background-color: rgb(255, 243, 205);
+	color: rgb(101, 96, 81);
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	margin-top: 6px;
+	padding: 6px 25px;
+	text-align: center;
+}
+
+.info_online {
+	background-color: rgb(207, 244, 252);
+	color: rgb(70, 81, 85);
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	margin-top: 6px;
+	padding: 6px 25px;
+	text-align: center;
+}
+
+.round {
+	position: relative;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: red;
+	bottom: 40px;
+	left: 84px;
+}
+
+
+.main_container3 {
+	width: 600px;
+	text-align: center;
+	font-size: 20px;
+	margin: 13px auto;
+	border: 1px solid;
+	box-shadow: 1px 1px 14px black;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 70px;
+	line-height:2;
+
+
+}
+
+.sub_container3 {
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+
+}
+
+.inbox_badge {
+	text-align: center;
+    padding: 2px;
+    background-color: rgb(119 131 48 / 64%);
+    box-shadow: 5px 4px 10px black;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.primary_inbox {
+	background-color: rgb(209, 224, 255);
+	color: rgb(39, 49, 70);
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	margin-top: 6px;
+	padding: 6px 25px;
+	text-align: center;
+}
+
+.secondary_inbox {
+	background-color: rgb(226, 227, 229);
+	color: rgb(36, 38, 38);
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	margin-top: 6px;
+	padding: 6px 25px;
+	text-align: center;
+}
+
+.success_inbox {
+	background-color: rgb(209, 230, 221);
+	color: rgb(62, 81, 73);
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	margin-top: 6px;
+	padding: 6px 25px;
+	text-align: center;
+}
+
+.danger_inbox {
+	background-color: rgb(248, 216, 219);
+	color: rgb(103, 81, 83);
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	margin-top: 6px;
+	padding: 6px 25px;
+	text-align: center;
+}
+
+.warning_inbox {
+	background-color: rgb(255, 243, 205);
+	color: rgb(101, 96, 81);
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	margin-top: 6px;
+	padding: 6px 25px;
+	text-align: center;
+}
+
+.info_inbox {
+	background-color: rgb(207, 244, 252);
+	color: rgb(70, 81, 85);
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	margin-top: 6px;
+	padding: 6px 25px;
+	text-align: center;
+}
+
+.number {
+	position: relative;
+    width: 30px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: red;
+    bottom: 43px;
+    left: 77px;
+    font-size: 8px;
+    color: white;
+    text-align: center;
+}
+
+
+
+.main_container4 {
+	width: 600px;
+	text-align: center;
+	font-size: 20px;
+	margin: 13px auto;
+	border: 1px solid;
+	box-shadow: 1px 1px 14px black;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 70px;
+	line-height:2;
+}
+
+.main_container4 h2 {
+	text-align: center;
+    padding: 2px;
+    margin-left: 10px;
+    background-color: rgb(119 131 48 / 64%);
+    box-shadow: 5px 4px 10px black;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.sub_container4 {
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.notifiction_primary {
+	text-decoration: none;
+	padding: 6px 25px;
+	border-radius: 5px;
+	background-color: rgb(209, 224, 255);
+	color: rgb(39, 49, 70);
+}
+
+.notifiction_secondary {
+	position: relative;
+	text-decoration: none;
+	padding: 6px 25px;
+	border-radius: 5px;
+	background-color: rgb(226, 227, 229);
+	color: rgb(36, 38, 38);
+}
+
+.notifiction_success {
+	text-decoration: none;
+	padding: 6px 25px;
+	border-radius: 5px;
+	background-color: rgb(209, 230, 221);
+	color: rgb(62, 81, 73);
+}
+
+.notifiction_danger {
+	text-decoration: none;
+	padding: 6px 25px;
+	border-radius: 5px;
+	background-color: rgb(248, 216, 219);
+	color: rgb(103, 81, 83);
+}
+
+.notifiction_warning {
+	text-decoration: none;
+	padding: 6px 25px;
+	border-radius: 5px;
+	background-color: rgb(255, 243, 205);
+	color: rgb(101, 96, 81);
+}
+
+.notifiction_info {
+	text-decoration: none;
+	padding: 6px 25px;
+	border-radius: 5px;
+	background-color: rgb(207, 244, 252);
+	color: rgb(70, 81, 85);
+}
+
+.sub_container4 span {
+	margin-left: 10px;
+	background-color: gray;
+	padding: 1px 7px;
+	border-radius: 5px;
+	color: black;
+}
